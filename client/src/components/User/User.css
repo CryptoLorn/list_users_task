@@ -1,0 +1,62 @@
+.user_wrapper {
+    width: 550px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    font-size: 24px;
+
+    border: 1px solid black;
+}
+
+.user_wrapper button {
+    cursor: pointer;
+}
+
+.user_id {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    width: 30px;
+}
+
+.user_name {
+    width: 200px;
+}
+
+.user_rank {
+    width: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.up_or_down {
+    display: flex;
+    column-gap: 10px;
+    font-size: 25px;
+}
+
+.up_or_down span {
+    width: 25px;
+}
+
+.up {
+    color: green;
+    width: 25px;
+}
+
+.up:hover {
+    color: darkslategrey;
+    cursor: pointer;
+}
+
+.down {
+    color: red;
+    width: 25px;
+}
+
+.down:hover {
+    color: #800101;
+    cursor: pointer;
+}
