@@ -35,14 +35,14 @@ module.exports = {
             const {name, rank} = req.body;
 
             if (rank < 0 || rank > 10) {
-                throw new Error('rank can\'t be < 0 or > 10')
+                throw new Error('rank can\'t be < 0 or > 10');
             }
 
             const user = await User.update({name, rank}, {where: {id}});
 
             return res.json(user);
         } catch (e) {
-            res.status(400).json({message: 'rank can\'t be < 0 or > 10'})
+            res.status(400).json({message: 'rank can\'t be < 0 or > 10'});
         }
     },
 

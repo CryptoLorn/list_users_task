@@ -22,7 +22,7 @@ const User = ({user, setIsDelete, isDelete, setIsUpdate, isUpdate, setUserForUpd
         }
 
         if (rank === 0) {
-            alert('Sorry')
+            alert('Sorry');
         }
 
         let newRank = rank - 1
