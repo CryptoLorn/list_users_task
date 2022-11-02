@@ -1,0 +1,17 @@
+How to start?
+
+1. Clone repository https://github.com/CryptoLorn/list_users_task.git
+2. Install all dependencies from file "package.json" from folder "server"
+3. Install all dependencies from file "package.json" from folder "client"
+4. Open ".env" file from folder "server" and enter your data from the database MySQL:
+DB_NAME=
+DB_USER=
+DB_PASSWORD=
+5. Open console and go to "server" folder with command:
+'cd server'
+and then start server with command:
+'npm run dev'
+6. Go to folder "client" with command:
+'cd client'
+and then start react with command:
+'npm start'
